@@ -1,11 +1,13 @@
-# CSV Sales Data Viewer
+# Product Sales Web Application
 
 ## Overview
-This is a single-page web application that fetches sales data from a CSV file and displays the total sales on the page. It uses Bootstrap 5 for styling and Papa Parse for CSV data parsing.
+This is a simple web application that reads product sales data from a csv string and displays it in a Bootstrap table. It also calculates and displays the total sales.
 
 ## Setup
-1. Ensure that the data.csv file is in the same directory as the index.html file.
-2. Open the index.html file in a web browser.
+You will need a modern web browser that supports JavaScript and jQuery. No additional setup is required.
 
 ## Usage
-The total sales are automatically calculated and displayed on the page when it loads. If the data.csv file is updated, refresh the page to see the updated total sales.
+Simply open the index.html file in your web browser. The page will automatically load the product sales data and display it in a table. The total sales is displayed below the table.
+
+## Improvements from Previous Version
+This is the first version of this web application.
